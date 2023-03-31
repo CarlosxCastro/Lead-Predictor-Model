@@ -8,7 +8,7 @@ Data <- read.csv("LeadsPredictionRawData.csv", header = TRUE, sep = ",")
 View(Data)
 
 
-### 3 - Display info about the Dataframe
+### 2 - Display info about the Dataframe
 summary(Data)
 nrow(Data)
 ncol(Data)
